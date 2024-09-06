@@ -1,13 +1,15 @@
 # Excluir archivos de configuración de desarrollo
 node_modules/
 *.log
-*.md
+
 
 # Excluir archivos de prueba
+.exe
 *.zip
 test/
 tests/
-
+img/
+hw/
 # Excluir archivos de construcción
 build/
 dist/
