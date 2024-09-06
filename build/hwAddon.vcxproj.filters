@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d:">
+      <UniqueIdentifier>{BEF52A9E-D2A2-C48D-E920-30A80477FED8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d:\Users\Dunkel">
+      <UniqueIdentifier>{A4027410-6454-921B-9866-E9413218AD4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d:\Users\Dunkel\AppData">
+      <UniqueIdentifier>{F852EB63-437C-846A-220F-8D9ED6DAEC1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d:\Users\Dunkel\AppData\Roaming">
+      <UniqueIdentifier>{D51E5808-912B-5C70-4BB7-475D1DBFA067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d:\Users\Dunkel\AppData\Roaming\nvm">
+      <UniqueIdentifier>{1B85D12A-9F9C-E0A8-F82E-74864675B527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d:\Users\Dunkel\AppData\Roaming\nvm\v22.7.0">
+      <UniqueIdentifier>{42FE88F7-354C-EB17-7CFF-B5698B37D830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d:\Users\Dunkel\AppData\Roaming\nvm\v22.7.0\node_modules">
+      <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d:\Users\Dunkel\AppData\Roaming\nvm\v22.7.0\node_modules\node-gyp">
+      <UniqueIdentifier>{77348C0E-2034-7791-74D5-63C077DF5A3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d:\Users\Dunkel\AppData\Roaming\nvm\v22.7.0\node_modules\node-gyp\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\hwAddon.cpp">
+      <Filter>..\src</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Users\Dunkel\AppData\Roaming\nvm\v22.7.0\node_modules\node-gyp\src\win_delay_load_hook.cc">
+      <Filter>d:\Users\Dunkel\AppData\Roaming\nvm\v22.7.0\node_modules\node-gyp\src</Filter>
+    </ClCompile>
+    <None Include="..\binding.gyp">
+      <Filter>..</Filter>
+    </None>
+  </ItemGroup>
+</Project>
