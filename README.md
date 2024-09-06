@@ -25,7 +25,7 @@ setInterval(() => {
 ![Hwinfo64support](https://github.com/zaramagasoft/hwinfo64node/blob/master/img/Hwinfo64support.png)
 ![json](https://github.com/zaramagasoft/hwinfo64node/blob/master/img/json.png)
 ![sensorsView](https://github.com/zaramagasoft/hwinfo64node/blob/master/img/sensorsViews.png)
-
+![lessDatasInJson](https://github.com/zaramagasoft/hwinfo64node/blob/master/img/lessDatas.png)
 
 ### code example index.js
 
