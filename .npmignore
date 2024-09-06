@@ -4,6 +4,7 @@ node_modules/
 *.md
 
 # Excluir archivos de prueba
+*.zip
 test/
 tests/
 
