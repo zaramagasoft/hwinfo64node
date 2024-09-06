@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+
+# C++ Build Artifacts
+build/
+*.o
+*.obj
+*.exe
+*.out
+*.log
+
+# Visual Studio
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+*.tmp
+*.exe
+notas
+
+# N-API Build
+build/Release/
+build/Debug/
