@@ -7,7 +7,8 @@ hwinfo64node read shared memory to json for nodejs in Windows.
 Addon for nodejs, it uses node-addon-api. You need configure HWiNFO64 to acces to shared memory.
 
 ## Examples and configures
-```const hwinfo = require('./build/Release/hwAddon');
+```javascript
+const hwinfo = require('./build/Release/hwAddon');
 console.log("arranco")
 setInterval(() => {
     try {
