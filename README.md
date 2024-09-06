@@ -8,7 +8,7 @@ Addon for nodejs, it uses node-addon-api. You need configure HWiNFO64 to acces t
 
 ## Instalación
 
-Aquí se describe cómo instalar y configurar el proyecto.
+![1](https://github.com/zaramagasoft/hwinfo64node/blob/master/img/1.png)
 
 ### Requisitos
 
@@ -16,27 +16,3 @@ Aquí se describe cómo instalar y configurar el proyecto.
 
 ### Pasos de Instalación
 
-1. Clona el repositorio:
-    ```bash
-    git clone https://github.com/usuario/nombre-del-repositorio.git
-    ```
-
-2. Navega al directorio del proyecto:
-    ```bash
-    cd nombre-del-repositorio
-    ```
-
-3. (Opcional) Instala las dependencias, si las hay:
-    ```bash
-    npm install
-    ```
-
-4. (Opcional) Configura cualquier configuración necesaria.
-
-## Uso
-
-Explica cómo usar el proyecto. Incluye ejemplos de comandos o código para ejecutar el proyecto.
-
-```bash
-# Ejemplo de comando
-node src/index.js
