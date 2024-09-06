@@ -5,10 +5,17 @@ hwinfo64node read shared memory to json for nodejs in Windows.
 ## Descripción
 
 Addon for nodejs, it uses node-addon-api. You need configure HWiNFO64 to acces to shared memory.
+in npm-->
+npm i hwinfonode
+if in your main.js--> add
+```javascript
+const hwinfo = require('hwinfonode'); 
+```
+in console returns -->Json
 
 ## Examples and configures
 ```javascript
-const hwinfo = require('./build/Release/hwAddon');
+const hwinfo = require('.hwinfonode/build/Release/hwAddon');
 console.log("arranco")
 setInterval(() => {
     try {
@@ -34,8 +41,8 @@ Desired Datas
 
 
 ```javascript
-const hwinfo = require('./build/Release/hwAddon');
-console.log("arranco")
+const hwinfo = require('hwinfonode/build/Release/hwAddon');
+//console.log("arranco")
 try {
     const sensores = hwinfo.getSensors();
     console.log('Datos de sensores:', sensores);
