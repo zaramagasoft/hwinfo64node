@@ -34,21 +34,7 @@ Desired Datas
 
 
 ```javascript
-const addon = require('aida64node/build/Release/addon');
-
-// Leer el buffer compartido
-const buffer = addon.readBuffer();
-if (buffer) {
-  console.log("Buffer leído:", buffer);
-
-  // Parsear los datos del sensor
-  const parsedData = addon.parseSensorData(buffer);
-  console.log("Datos parseados:", parsedData);
-} else {
-  console.error("No se pudo leer el buffer compartido.");
-}
-
-```const hwinfo = require('./build/Release/hwAddon');
+const hwinfo = require('./build/Release/hwAddon');
 console.log("arranco")
 try {
     const sensores = hwinfo.getSensors();
