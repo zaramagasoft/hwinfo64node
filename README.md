@@ -15,7 +15,7 @@ in console returns -->Json
 
 ## Examples and configures
 ```javascript
-const hwinfo = require('.hwinfonode/build/Release/hwAddon');
+const hwinfo = require('hwinfonode/build/Release/hwAddon');
 console.log("arranco")
 setInterval(() => {
     try {
