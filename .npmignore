@@ -1,0 +1,18 @@
+# Excluir archivos de configuración de desarrollo
+node_modules/
+*.log
+*.md
+
+# Excluir archivos de prueba
+test/
+tests/
+
+# Excluir archivos de construcción
+build/
+dist/
+*.tgz
+
+# Excluir archivos específicos del sistema
+*.DS_Store
+*.idea/
+*.vscode/

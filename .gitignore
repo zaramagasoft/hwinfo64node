@@ -10,7 +10,8 @@ build/
 *.exe
 *.out
 *.log
-
+*.zip
+*.tgz
 # Visual Studio
 .vscode/
 *.suo
